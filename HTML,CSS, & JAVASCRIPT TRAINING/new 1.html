@@ -1,0 +1,30 @@
+<html>
+ <head>
+   <title>Numbers</title>
+   <script>
+       var num =parseInt(prompt("Enter the number"));
+	 </script>
+	</head>
+	<body>
+	   <form>
+	      <input type="radio" name="number" id="1" value="octal">octal<br>
+		  <input type="ratio" name="number" id="2" value="hex">Hexadecimal<br>
+		  <input type="radio" name="number" id="3" value="binary">Binary<br>
+		  <button type="button" onclick="display()">submit</button>
+		</form>
+	 </body>
+	 
+	 <script>
+	    function display() {
+		   if(document.getElementById('1').checked) {
+		      document.write("octalnumber of "+num+" is "+num.toString(16));
+		   }
+		   else if(document.getElementById('2').checked) {
+		       document.write("Hexadecimal number of "+num+" is "+num.tpString(8));
+			 }
+			else if(document.getElementById('3').checked) {
+			   document.write("octal number of "+num+" is "+num.toString(2));
+			 }
+		}
+			</script>
+		</html>

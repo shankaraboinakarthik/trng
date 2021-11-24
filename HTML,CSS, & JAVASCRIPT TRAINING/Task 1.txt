@@ -1,0 +1,30 @@
+1.What is Change Request ?
+--> A change request is an alternative/call for an adjustment of a system.
+    ex:Take a project to build a house on a designated location according to its
+       blueprint.But in order to add a bedroom over the garbage when the house 
+       construction is already in process.Here the change is made in the plan like
+       way same that change request is used in the middle of the program in order 
+       adjust the software aplication.
+
+2.What is RTM ?
+--> "Requirements Traceability Matrix" is a document which is used to validate that
+    all the requirements are linked to test cases.The main purpose of RTM is to 
+    track the project requirements through out the project life cycle.It is usually
+    prepared by project architect in a project structure.
+
+3.What is Coding Standards ?
+--> Coding standards are collection of rules and guidelines that determines the
+    programming style,procedures and methods for a programming language.
+    Coding standards improve software readability by allowing developers to 
+    understand newcode faster and better. 
+
+4.What is Baseline ?
+--> Baseline is a reference line that is used for comparison purposes.In SDLC
+    baseline is a reference point marked by the completion and formal set of
+    predefined work products.Baselines are used to identify the aggregate of
+    software and hardware components.  
+
+5.What is Reusability ?
+--> Reusability is the quality of code being used in different platforms for 
+    multiple functions.It makes the ability of others native code to easily
+    understand the properties of written code.
