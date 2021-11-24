@@ -1,0 +1,3 @@
+select EMPNO
+FROM EMP 
+WHERE ENAME='JAMES'

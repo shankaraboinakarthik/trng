@@ -1,0 +1,12 @@
+FORM-1
+ 
+PET INFORMATION                TABLE-1 PET TABLE               PET OWNER TABLE                  PROCEDURE TABLE
+1.PET ID                          PET ID                          PET ID                         PET ID
+2.PET NAME                        PET NAME                        PET AGE                       VISIT DATE
+3.PET TYPE                        PET TYPE                       VISIT DATE                      PROCEDURE 
+4.PET AGE                         OWNER                          PROCEDURE
+5.OWNER
+6.VISIT DATE
+7.PROCEDURE
+
+

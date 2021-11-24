@@ -1,0 +1,4 @@
+SELECT ENAME,
+       SAL,
+	   SAL*12 AS ANNUAL
+FROM EMP

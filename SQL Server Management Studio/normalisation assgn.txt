@@ -1,0 +1,74 @@
+                              HEALTH HISTORY  
+
+PET ID	PET NAME	PET TYPE  PET AGE    OWNER	     VISIT DATE	              PROCEDURE 
+
+246	      ROVER		  DOG	    12	    SAM COOK	JAN 13/2002	     01 - RABIES VACCINATION WOUND
+
+                                                    MAR 27/2002	     10 - EXAMINE and TREAT                                        
+
+                                                    APR 02/2002	     05 - HEART WORM TEST 
+
+ 
+ 
+298	       SPOT		  DOG	    2	    TERRY KIM	JAN 21/2002	     08 - TETANUS VACCINATION	 
+
+                                                    MAR 10/2002	     05 - HEART WORM TEST 
+
+ 
+
+341      MORRIS		  CAT	    4	    SAM COOK	JAN 23/2001	     01 - RABIES VACCINATION 
+
+                                                    JAN 13/2002	     01 - RABIES VACCINATION 
+
+ 
+
+519	     TWEEDY		  BIRD	    2	    TERRY KIM	APR 30/2002	      20 - ANNUAL CHECK UP 
+
+                                                    APR 30/2002	      12 - EYE WASH 
+													
+													
+
+
+PROCEDURE
+----------------------------------------------------------------------------------------------------------------
+-->reduced redundancy
+-->key fields
+-->smaller tables
+-------------------------------------------------------------------
+PET DETAILS 
+------------
+pet id(PK)
+pet name
+pet type
+pet age
+owner
+
+VISIT DETAILS
+--------------
+pet id(fk)
+visit date
+procedure
+-------------------------------------------------------------------
+OWNER DETAILS
+--------------
+owner id(pk)
+owner name
+
+PET DETAILS
+------------
+pet id(pk)
+pet name
+pet type
+pet age
+owner id(fk)
+-------------------------------------------------------------------
+VISIT DETAILS
+--------------
+pet id(fk)
+visit date 
+procedure
+-------------------------------------------------------------------
+PROCEDURE DETAILS
+-----------------
+procedure id(pk) 
+procedure
