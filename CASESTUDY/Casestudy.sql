@@ -21,7 +21,7 @@ CREATE TABLE karthik (
     ownerid,
     creationon,
     modifiedon)
-	VALUES(1,'SHYAM','WELCOME','ACTIVE','HIGH','HI','YES',1,'2000-01-01','2002-02-22');
+	VALUES(1,'KITTU','WELCOME','ACTIVE','HIGH','HI','YES',1,'2000-01-01','2002-02-22');
 	INSERT INTO karthik(
     taskid,
     name,
@@ -33,6 +33,6 @@ CREATE TABLE karthik (
     ownerid,
     creationon,
     modifiedon)
-	VALUES(1,'KESAVA','WELCOME1','ACTIVE1','HIGH1','HI','YES',2,'2000-01-22','2002-02-23');
+	VALUES(1,'VAMSHI','WELCOME1','ACTIVE1','HIGH1','HI','YES',2,'2000-01-22','2002-02-23');
 
 	SELECT *FROM karthik;
